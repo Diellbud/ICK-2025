@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.aboutInfoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 440px;
+    height: 146px;
+    color: #ffffff;
+}
+.aboutInfoContainer div{
+    width: 50%;
+}
+.aboutInfoContainer img{
+    width: 70px;
+    height: 70px;
+}
+.aboutInfoContainer h3{
+    font-weight: 700;
+    font-size: 23px;
+}
+.aboutInfoContainer p{
+    font-weight: 500;
+    font-size: 16px;
+}
