@@ -1,0 +1,33 @@
+body{
+    background-color: #FAC1AA;
+}
+.productGrid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+    gap: 20px;
+}
+.productContainer{
+    background-color: white;
+    box-shadow: 1px 1px 53px -19px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 53px -19px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 53px -19px rgba(0, 0, 0, 0.75);
+    border-radius: 16px;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.imgContainer{
+    height: 40%;
+}
+h4{
+    color: #6A1B9A;
+}
+.productPrice{
+    color: #D33233;
+}
+.discount{
+    color: green;
+}
+.discountCalc{
+    color:#898989;
+}
