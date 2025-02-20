@@ -60,7 +60,7 @@ document.write(`
   <div class = "productGrid">
   `)
 products.forEach(product => {
-  let productOriginal = (product.price * (product.discount / 100)).toPrecision(3)
+  let productOriginal = (product.price -(product.price * (product.discount / 100)).toPrecision(3))
     document.write(`
         <div class="productContainer">
         <div class = "imgContainer">
