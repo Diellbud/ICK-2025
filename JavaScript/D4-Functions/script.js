@@ -25,6 +25,8 @@ let notAllowedChars = [
     "#",
     "@",
     "!",
+    "(",
+    ")"
   ];
   function stringCheck(stringValue) {
     let num = 0;
