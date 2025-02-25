@@ -33,3 +33,37 @@ console.log(listItem);
 
 //input
 let input = document.querySelector('input[type="number"]') 
+
+
+
+
+
+//Multiple Selection
+//by class query
+const listAll=document.querySelectorAll('.list')
+console.log(listAll);
+listAll.forEach((item, index) => {
+    console.log(index,item);
+    if (index == 2) {
+        let listItem = listAll[index]
+        listItem.style.color ="red"
+        listItem.setAttribute('id',"hello")
+        listItem.textContent ="Hello"
+    }
+})
+
+//by class
+const listByClass = document.getElementsByClassName('item')
+console.log(listByClass);
+
+//Convert from html Collection to nodelist(Array)
+let convertedArray = Array.from(listByClass)
+console.log(convertedArray);
+
+convertedArray.forEach(item =>{
+    console.log(item);
+})
+
+
+//by tag
+const byTag = document.getElementsByTagName()
