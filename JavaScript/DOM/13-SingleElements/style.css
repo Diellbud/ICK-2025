@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.shoppingContainer{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 16px;
+}
+.liBigContainer{
+    width: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+li p{
+    list-style: none;
+    background-color: #F8F9FA;
+    height: 50px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-sizing: border-box;
+}
+li button{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #FF4D4C;
+    color: white;
+}
+.clearButton{
+    background-color: #4F7180;
+    width: 90%;
+    color: white;
+    border: 0;
+    height: 40px;
+}
+form div{
+    height: 30px;
+    display: flex;
+    gap: 20px;
+}
+input{
+    height: 100%;
+    border-radius: 8px;
+    border: 0;
+    width: 50%;
+}
+form div button{
+    background-color: #00A546;
+    color: white;
+    height: 100%;
+    border-radius: 8px;
+    border: 0;
+    width: 40%;
+}
+.searchInput{
+    height: 30px;
+    width: 100%;
+}
