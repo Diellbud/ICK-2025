@@ -15,6 +15,7 @@ const saveStudentsLocalStorage = () =>{
 }
 
 let newId = students.length + 1;
+
 const readList = () => {
   const tableBody = document.getElementById("studentsList");
   tableBody.innerHTML = ``;
@@ -24,7 +25,7 @@ const readList = () => {
         <td>${student.firstName}</td>
         <td>${student.lastName}</td>
         <td>
-        <button>Edit</button>
+        <button onclick="editStudentAction(${student.id})">Edit</button>
         <button onclick="deleteStudentAction(${student.id})">Delete</button>
         </td>
         <td>${student.id}</td>
@@ -71,6 +72,18 @@ const deleteStudentAction = (id) => {
     deleteStudent(id);
     readList();
   }
+};
+const editStudent = (id) =>{
+  const index = students.findIndex((student) => student.id === id);
+  let student = students[index]
+  let firstName = prompt(`Editing First Name of student with id #${student.id}`)
+  let lastName = prompt(`Editing Last Name of student with id #${student.id}`)
+  student.firstName = firstName
+  student.lastName = lastName
+}
+const editStudentAction = (id) => {
+    editStudent(id);
+    readList();
 };
 
 readList();
