@@ -1,0 +1,11 @@
+{
+    "users":[
+    {
+      "username":"Diell",
+      "password":123123,
+      "email":"budimadiell@gmail.com",
+      "role": 2,
+      "subscribe":true
+      }
+]
+}

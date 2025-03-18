@@ -27,6 +27,7 @@ async function createPost(e){
     catch(error){
         console.log(error)
     }
+    createForm.reset()
 }
 
 async function deletePost(e) {
@@ -46,6 +47,7 @@ async function deletePost(e) {
     catch (error) {
         console.log(error);
     }
+    createForm.reset()
 }
 
 createForm.addEventListener('submit', createPost)
