@@ -62,16 +62,17 @@ const getData = () => {
         card.appendChild(btnDiv)
         body.appendChild(card);
         function onBuy() {
-          const productData = {
-            id: image.id,
-            title: image.title,
-            desc: image.desc,
-            img: image.image,
-          };
-          localStorage.setItem("selectedProduct", JSON.stringify(productData));
-          window.location.href = "./Checkout/index.html";
+        fetch('http://localhost:3000/products')
+        .then(res => res.json())
+        .then(data =>{
+            data.forEach(product => {
+                buyBtn.addEventListener('click', ()=>{
+                    window.location.href=`./Checkout/index.html?id=${product.id}`
+                })
+            });
+        })
         }
-        buyBtn.addEventListener('click', onBuy)
+        onBuy()
       });
     });
 };
