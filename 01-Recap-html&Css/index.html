@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .aboutUs {
+        background-color: cadetblue;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Recap Html & Css</title>
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <img src="./Images/th.jpg" class="logo" alt="" width="" />
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <img src="./Images/th.jpg" alt="" />
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Diell</th>
+              <th>13</th>
+              <th>Prishtina</th>
+            </tr>
+            <tr>
+              <th>Diell</th>
+              <th>13</th>
+              <th>Prishtina</th>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Inline Css -->
+        <!-- <div class="mainBanner" style="width:30px;">
+                <h1>Welcome to Html & Css</h1>
+            </div> -->
+        <div class="mainBanner">
+          <h1>Welcome to Html & Css</h1>
+        </div>
+        <div class="aboutUs">
+          <h1>This is the first class into JS</h1>
+          <p>these are our services</p>
+          <p>these are our BEST practices</p>
+        </div>
+      </main>
+      <footer>
+        <h2>Register Here</h2>
+        <form>
+          <div class="formGroup">
+            <label for="firstName">First Name</label>
+            <input type="text" placeholder="First Name" id="firstName" />
+          </div>
+          <div class="formGroup">
+            <label for="lastName">Last Name</label>
+            <input type="text" placeholder="Last Name" id="lastName" />
+          </div>
+          <div class="formGroup">
+            <label for="age">Age</label>
+            <input type="number" placeholder="Age" id="age" />
+          </div>
+          <div class="formGroup">
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" />
+          </div>
+          <div class="formGroup">
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+          </div>
+          <div class="formGroup">
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+          <div class="formGroup">
+            <h4>Favorite Subjects</h4>
+            <label for="math">Math</label>
+            <input
+              type="checkbox"
+              id="math"
+              class="favSubjects"
+              name="Subjects"
+            />
+            <br />
+            <label for="code">Code</label>
+            <input
+              type="checkbox"
+              id="code"
+              class="favSubjects"
+              name="Subjects"
+            />
+            <br />
+            <label for="js">JS</label>
+            <input
+              type="checkbox"
+              id="js"
+              class="favSubjects"
+              name="Subjects"
+            />
+          </div>
+          <div class="formGroup">
+            <h4>Gender</h4>
+            <label for="male">Male</label>
+            <input type="radio" id="male" class="favSubjects" name="gender" />
+            <br />
+            <label for="code">Female</label>
+            <input type="radio" id="female" class="favSubjects" name="gender" />
+          </div>
+        </form>
+      </footer>
+    </section>
+  </body>
+</html>
