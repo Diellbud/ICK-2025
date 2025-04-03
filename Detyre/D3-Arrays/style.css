@@ -1,0 +1,34 @@
+body{
+    background-color: #FAC1AA;
+}
+.employeeGrid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
+    gap: 20px;
+}
+.employeeContainer{
+    background-color: white;
+    box-shadow: 1px 1px 53px -19px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 53px -19px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 53px -19px rgba(0, 0, 0, 0.75);
+    border-radius: 16px;
+    height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    background-color: white;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

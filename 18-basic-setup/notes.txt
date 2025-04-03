@@ -1,0 +1,201 @@
+Diell Budima@DB-Desktop MINGW64 ~
+$ cd C:\Users\Diell Budima\Desktop\Git-Repo\ICK-2025\JavaScript\18-basic-setup
+bash: cd: too many arguments
+
+Diell Budima@DB-Desktop MINGW64 ~
+$ cd Desktop/\
+> cd Desktop/
+bash: cd: too many arguments
+
+Diell Budima@DB-Desktop MINGW64 ~
+$ ls
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MCreatorWorkspaces/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{06cc05b2-ab6d-11ef-8a9a-f31a273337b4}.TM.blf
+ NTUSER.DAT{06cc05b2-ab6d-11ef-8a9a-f31a273337b4}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{06cc05b2-ab6d-11ef-8a9a-f31a273337b4}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ansel/
+ curseforge/
+ index.html
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+Diell Budima@DB-Desktop MINGW64 ~
+$ cd Desktop/
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop
+$ cd Git
+Git Bash.lnk  Git-Repo/
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop
+$ cd Git-Repo/
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo
+$ cd javascript
+bash: cd: javascript: No such file or directory
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo
+$ cd ICK-2025
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025 (main)
+$ cd JavaScript/
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript (main)
+$ cd 18-basic-setup/
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ ls
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm init -y
+Wrote to C:\Users\Diell Budima\Desktop\Git-Repo\ICK-2025\JavaScript\18-basic-setup\package.json:
+
+{
+  "name": "18-basic-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
+
+
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm install --save-dev webpack
+
+added 77 packages, and audited 78 packages in 6s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm install webpack-cli
+
+added 41 packages, and audited 119 packages in 3s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm uninstall webpack-cli
+
+removed 41 packages, and audited 78 packages in 1s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm i webpack-cli
+
+added 41 packages, and audited 119 packages in 2s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm i webpack-dev-server
+
+added 179 packages, and audited 298 packages in 7s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm i html-webpack-plugin
+
+added 30 packages, and audited 328 packages in 5s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm i css-loader
+
+added 13 packages, and audited 341 packages in 2s
+
+66 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ npm i style-loader
+
+added 1 package, and audited 342 packages in 1s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ mkdir src
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ touch src/index.html
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ touch src/index.js
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ touch src/style.css
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ touch webpack.confing.js
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ touch src/about.html
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ touch src/about.js
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$ ^C
+
+Diell Budima@DB-Desktop MINGW64 ~/Desktop/Git-Repo/ICK-2025/JavaScript/18-basic-setup (main)
+$
